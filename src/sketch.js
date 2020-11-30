@@ -9,10 +9,12 @@ const FLOWER_SPACE = 48;
 const FLOWER_SPEED = 0.09;
 
 // sprite
+const SITE_ROOT = '/amarafly';
+const IMG_PREFIX = `${SITE_ROOT}/img`;
 const SPRITE_COUNT = 4;
 const SPRITE_SIZE = 128;
-const SPRITE_IMG = '/img/butterfly-sprite.png';
-const FLOWER_IMG = '/img/flower-sprite.png';
+const SPRITE_IMG = `${IMG_PREFIX}/butterfly-sprite.png`;
+const FLOWER_IMG = `${IMG_PREFIX}/flower-sprite.png`;
 
 let flock = [];
 let garden = [];
